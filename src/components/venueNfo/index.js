@@ -48,16 +48,18 @@ const VenueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        1 April 2017 @1.05 pm
+                                        1 E 161st Street The Bronx, NY
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </Zoom>
+
                 </div>
             </div>
-
         </div>
-    )
-}
+    );
+};
+
+export default VenueNfo;
 
