@@ -48,7 +48,7 @@ class Discount extends Component {
 
                             <MyButton
                                 text="Purchase tickets"
-                                bck="#ffa800"
+                                bck="#000000"
                                 color="#ffffff"
                                 link="http://google.com"
                             />

@@ -37,6 +37,7 @@ class TimeUntil extends Component {
     render() {
         return (
             <Slide left delay={1000}>
+            <div className="wrap">
                 <div className="countdown_wrapper">
                     <div className="countdown_top">
                         Event starts in
@@ -76,6 +77,7 @@ class TimeUntil extends Component {
                         </div>
                     </div>
                 </div>
+            </div>
             </Slide>
         );
     }

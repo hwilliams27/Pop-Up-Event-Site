@@ -14,7 +14,7 @@ const VenueNfo = () => {
                     <div className="vn_item">
                         <div className="vn_outer">
                             <div className="vn_inner">
-                                <div className="vn_icon_square bck_red"></div>
+                                <div className="vn_icon_square bck_yellow"></div>
                                 <div 
                                 className="vn_icon"
                                 style={{
@@ -25,7 +25,7 @@ const VenueNfo = () => {
                                     Event Date & Time
                                 </div>
                                 <div className="vn_desc">
-                                    1 April 2017 @1.05 pm
+                                    June 30th @12:00 pm
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ const VenueNfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_yellow"></div>
+                                    <div className="vn_icon_square bck_red"></div>
                                     <div 
                                         className="vn_icon"
                                         style={{
@@ -48,7 +48,7 @@ const VenueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        1 E 161st Street The Bronx, NY
+                                        90 Kent Ave, Brooklyn, NY 11211
                                     </div>
                                 </div>
                             </div>

@@ -12,7 +12,7 @@ const SideDrawer = (props)=>{
             duration: 1500,
             delay: 100,
             smooth: true,
-            offset: -150
+            offset: -80
         });
         props.onClose(false)
     }
@@ -47,6 +47,11 @@ const SideDrawer = (props)=>{
                 <ListItem button onClick={()=> scrollToElement
                 ('location')}>
                     Location
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement
+                ('social')}>
+                    Social
                 </ListItem>
 
             </List>
