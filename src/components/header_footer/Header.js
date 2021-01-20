@@ -52,7 +52,7 @@ class Header extends Component {
                 <Toolbar>
 
                     <div className="header_logo">
-                        <div className="font_righteous header_logo_venue">Yankee Stadium</div>
+                        <div className="font_righteous header_logo_venue">Pop Up Flea</div>
                         <div className="header_logo_title">Opening Day</div>
                     </div>
 
