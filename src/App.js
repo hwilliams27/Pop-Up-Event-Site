@@ -11,6 +11,7 @@ import Pricing from './components/pricing';
 import Location from './components/location';
 import SocialMedia from './components/social';
 import Footer from './components/header_footer/Footer';
+import ScrollToTop from 'react-scroll-to-top';
 
 class App extends Component {
   render(){
@@ -42,7 +43,7 @@ class App extends Component {
           <SocialMedia/>
         </Element>
         
-        
+        <ScrollToTop smooth/>
         <Footer/>
       </div>
     );
