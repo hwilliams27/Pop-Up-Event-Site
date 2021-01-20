@@ -24,4 +24,4 @@ const MyButton = (props)=>{
     );
 };
 
-export default SideDrawer; 
+export default MyButton; 

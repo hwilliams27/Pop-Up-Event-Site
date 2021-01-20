@@ -1,5 +1,5 @@
 import React from 'react'
-import React, { scroller } from 'react-scroll';
+import { scroller } from 'react-scroll';
 
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -25,23 +25,28 @@ const SideDrawer = (props)=>{
         >
             <List component="nav">
                 <ListItem button onClick={()=> scrollToElement
-                ('featured')}>Event starts in
+                ('featured')}>
+                    Event starts in
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement
-                ('venuenfo')}>Venue INFO
+                ('venueNfo')}>
+                    Venue INFO
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement
-                ('highlights')}>Highlights
+                ('highlights')}>
+                    Highlights
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement
-                ('pricing')}>Pricing
+                ('pricing')}>
+                    Pricing
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement
-                ('location')}>Location
+                ('location')}>
+                    Location
                 </ListItem>
 
             </List>

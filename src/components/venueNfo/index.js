@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 
 import icon_calendar from '../../resources/images/icons/calendar.png';
@@ -39,10 +39,10 @@ const VenueNfo = () => {
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_yellow"></div>
                                     <div 
-                                    className="vn_icon"
-                                    style={{
-                                        background:`url(${icon_location})`
-                                    }}
+                                        className="vn_icon"
+                                        style={{
+                                            background:`url(${icon_location})`
+                                        }}
                                     ></div>
                                     <div className="vn_title">
                                         Event Location

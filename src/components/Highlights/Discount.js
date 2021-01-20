@@ -8,7 +8,7 @@ class Discount extends Component {
 
     state = {
         discountStart:0,
-        discountEnd:0,
+        discountEnd:0
     }
 
 
@@ -35,7 +35,7 @@ class Discount extends Component {
                     <Fade 
                         onReveal={()=> this.percentage()}
                     >
-                        <div className="discount_percentage">
+                        <div className="discount_porcentage">
                             <span>{this.state.discountStart}%</span>
                             <span>OFF</span>
                         </div>
