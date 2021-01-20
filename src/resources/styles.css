@@ -22,6 +22,10 @@ body {
     background: #f3c976;
 }
 
+.bck_purp {
+    background: #953bdf;
+}
+
 .iconImage {
     width: 20px;
     margin-right: 10px;
@@ -235,7 +239,7 @@ a.instagram {
 }
 
 .vn_item .vn_inner:hover {
-    background: #3e3e3e;
+    background: #2f74cf;
 }
 
 .vn_item .vn_icon_square {
