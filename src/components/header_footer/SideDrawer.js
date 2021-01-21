@@ -62,7 +62,7 @@ const SideDrawer = (props)=>{
                 </ListItem>
 
                 <ListItem>
-                    <a href = "https://github.com/doobybooby/Pop-Up-Event-Site">GitHub</a>
+                    <a href = "https://github.com/hwilliams27/Pop-Up-Event-Site">GitHub</a>
                 </ListItem>
 
             </List>

@@ -171,7 +171,7 @@ a.instagram {
     color: white;
     text-align: center;
     box-sizing: border-box;
-    background:rgb(128,128,128, .8);
+    background:rgb(0,0,0, .6);
     padding: 20px 20px;
     border-radius: 50px;
     text-align: center;
@@ -183,6 +183,7 @@ a.instagram {
     text-align: center;
     display: inline-block;
     text-transform: uppercase;
+    padding-top: 30px;
     
 }
 
@@ -295,7 +296,7 @@ a.instagram {
     color: black;
     font-size: 52px;
     background-color: white;
-    padding: 25px 0px;
+    padding: 25px 20px;
 }
 
 .highlight_wrapper .highlight_description {
@@ -434,14 +435,29 @@ a.instagram {
     text-align: center;
 }
 
+/*====================
+        YOUTUBE    
+======================*/
+
+.tube_wrap{
+    padding-bottom: 50px;
+}
+
+.youtube_title{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    /* padding: 50px; */
+}
+
 .youtube_video{
-    width: 560px; /* you have to have a size or this method doesn't work */
-    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+    max-width: 560px; /* you have to have a size or this method doesn't work */
+    max-height: 315px; /*think about making these max-width instead - might give you some more responsiveness */
 
     top: 0; right: 0; /* confuse it i guess */
     bottom: 0; left: 0;
     margin: auto; /* make em equal */;
-    padding: 5px;
+    /* padding: 5px; */
 }
 /*====================
         LOCATION    
@@ -459,8 +475,9 @@ a.instagram {
     bottom: 475px;
     width: 100%;
 }
+
 .location_tag div{
-    background: #000000;
+    background: #ffffff;;
     color: #ffffff;
     text-transform: uppercase;
     width: 220px;
@@ -469,7 +486,7 @@ a.instagram {
     padding: 15px 20px;
     text-align: center;
     border-radius: 50px;
-    border: 2px solid #bde0fe;
+    border: 3px solid black;
 }
 
 /*====================
