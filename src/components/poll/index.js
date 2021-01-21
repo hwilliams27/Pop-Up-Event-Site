@@ -31,8 +31,10 @@ class Pollz extends Component {
   render () {
     const { pollAnswers } = this.state
     return (
-      <div>
-        <Poll question={pollQuestion} answers={pollAnswers} onVote={this.handleVote} />
+      <div class="big_wrap">
+        <div className="poll_wrapper">
+          <Poll question={pollQuestion} answers={pollAnswers} onVote={this.handleVote} />
+        </div>
       </div>
     );
   }

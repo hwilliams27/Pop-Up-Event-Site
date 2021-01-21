@@ -77,8 +77,9 @@ footer .footer_copyright {
 
 .social-container {
     background: #ffffff;
-    padding: 20px 50px;
+    padding: 10px 40px;
     text-align: center;
+    border-top: 1px solid black;
 }
 
 a.social {
@@ -323,6 +324,7 @@ a.instagram {
 
 .discount_wrapper .discount_description {
     box-sizing: border-box;
+    border: 2px solid black;
     background: #2f74cf;
     padding: 50px 30px;
     border-radius: 25px;
@@ -376,6 +378,7 @@ a.instagram {
     background: #3bdf6c;
     padding: 50px 20px;
     border-radius: 25px;
+    border: 2px solid black;
 }
 
 .pricing_inner_wrapper .pricing_title {
@@ -417,7 +420,7 @@ a.instagram {
 
 .location_tag {
     position: absolute;
-    bottom: 0px;
+    bottom: 475px;
     width: 100%;
 }
 .location_tag div{
@@ -430,4 +433,17 @@ a.instagram {
     padding: 15px 20px;
     text-align: center;
     border-radius: 50px;
+    border: 2px solid white;
+}
+
+/*====================
+        POLL    
+======================*/
+.big_wrap {
+    border-top: 1px solid black;
+}
+.poll_wrapper {
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
 }
