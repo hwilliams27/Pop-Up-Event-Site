@@ -38,6 +38,7 @@ const VenueNfo = () => {
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_green"></div>
+                                    {/* <img src={location.gif} alt="loading..." /> */}
                                     <div 
                                         className="vn_icon"
                                         style={{

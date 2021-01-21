@@ -44,7 +44,7 @@ class Header extends Component {
             <AppBar
                 position="fixed"
                 style={{
-                    backgroundColor: this.state.headerShow ? '#000000' : 'transparent',
+                    backgroundColor: this.state.headerShow ? '#bde0fe' : 'transparent',
                     boxShadow: 'none',
                     padding: '10px 0px'
                 }}

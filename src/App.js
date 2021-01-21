@@ -12,7 +12,8 @@ import Location from './components/location';
 import Pollz from './components/poll';
 import SocialMedia from './components/social';
 import Footer from './components/header_footer/Footer';
-
+import ScrollToTop from "react-scroll-to-top";
+import Youtube from "./components/youtube";
 class App extends Component {
   render(){
     return(
@@ -31,6 +32,10 @@ class App extends Component {
           <Location/>
         </Element>
 
+        <Element name="youtube">
+          <Youtube/>
+        </Element>
+
         <Element name="highlights">
           <Highlight/>
         </Element>
@@ -47,7 +52,7 @@ class App extends Component {
           <SocialMedia/>
         </Element>
         
-        
+        <ScrollToTop/>
         <Footer/>
       </div>
     );
