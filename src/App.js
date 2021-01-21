@@ -9,6 +9,7 @@ import VenueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
 import Location from './components/location';
+import Pollz from './components/poll';
 import SocialMedia from './components/social';
 import Footer from './components/header_footer/Footer';
 
@@ -36,6 +37,10 @@ class App extends Component {
 
         <Element name="location">
           <Location/>
+        </Element>
+
+        <Element name="poll">
+          <Pollz/>
         </Element>
 
         <Element name="social">
