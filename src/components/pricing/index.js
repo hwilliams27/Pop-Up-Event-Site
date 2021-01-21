@@ -5,12 +5,12 @@ import Zoom from 'react-reveal/Zoom';
 class Pricing extends Component {
 
     state = {
-        prices:[192, 131, 220],
-        positions:['Grandstand', 'Main', 'Field'],
+        prices:[20, 50, 200],
+        positions:['Reuseable Cup', 'Vip Music Tent', 'Family Pass'],
         desc:[
-            'Filler',
-            'Filler',
-            'Filler.'
+            'Buy one of our Pop Up Flea branded metal cups to get 10% off all drinks!',
+            'This gives you access to the Vip Music Tent with one free drink and a socially distanced table (21+)',
+            'This pass allows you to get a 4 free meals and a Pop Up Flea Vendor shirt of your choice.'
         ],
         linkto:['http://sales/b','http://sales/m','http://sales/s'],
         delay:[500, 0, 500]

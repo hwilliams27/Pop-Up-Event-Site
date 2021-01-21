@@ -7,7 +7,7 @@ import MyButton from '../utils/MyButton';
 class Discount extends Component {
 
     state = {
-        discountStart:0,
+        discountStart:25,
         discountEnd:0
     }
 
@@ -43,8 +43,8 @@ class Discount extends Component {
 
                     <Slide right>
                         <div className="discount_description">
-                            <h3>Purchase tickets before 1st APRIL</h3>
-                            <p>Filler Text Filler Text Filler Text Filler Text </p>
+                            <h3>** Register before June 30th **</h3>
+                            <p>Are you a student with a valid college ID? Register to get our student discount now!</p>
 
                             <MyButton
                                 text="Purchase tickets"
