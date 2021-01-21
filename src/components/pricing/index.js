@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 class Pricing extends Component {
 
     state = {
-        prices:[20, 50, 200],
+        prices:[10, 50, 200],
         positions:['Reuseable Cup', 'Vip Music Tent', 'Family Pass'],
         desc:[
             'Buy one of our Pop Up Flea branded metal cups to get 10% off all drinks!',
