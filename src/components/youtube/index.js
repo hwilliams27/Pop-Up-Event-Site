@@ -9,6 +9,8 @@ function Youtube() {
           <div className = "youtube_video">
           <ReactPlayer
             url="https://www.youtube.com/watch?v=1Zvr-1vgFjo"
+            width="50%"
+            height="200%"
           />
           </div>
         </div>
