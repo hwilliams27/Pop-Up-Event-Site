@@ -155,7 +155,7 @@ a.instagram {
 .wrap{
     display: flex;
     justify-content: center;
-    margin-top: -160px;
+    margin-top: -45px;
 }
 
 .countdown_wrapper {
@@ -168,17 +168,15 @@ a.instagram {
     background:rgb(0,0,0, .6);
     padding: 20px 20px;
     border-radius: 50px;
-    text-align: center;
 }
 
 .countdown_wrapper .countdown_top {
     background: transparent;
-    font-size: 19px;
+    font-size: 30px;
     text-align: center;
     display: inline-block;
     text-transform: uppercase;
-    padding-top: 30px;
-    padding-left: 8px;
+    padding-top: 50px;
 }
 
 .countdown_wrapper .countdown_bottom {
@@ -207,7 +205,6 @@ a.instagram {
 ======================*/
 
 .center_wrapper {
-    margin-top: 135px;
     width: 100%;
 }
 
