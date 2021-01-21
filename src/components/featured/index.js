@@ -8,12 +8,6 @@ const Featured = () => {
 
             <Carrousel/>
 
-            <div className='event_name'>
-                <div className="wrapper">
-                    
-                </div>
-            </div>
-
             <TimeUntil/>
             
         </div>
