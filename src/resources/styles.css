@@ -17,7 +17,8 @@ body {
 }
 
 .bck_green {
-    background: black;
+    border: 2px solid #828282;
+    background: #ffc8dd;
 }
 
 .iconImage {
@@ -226,7 +227,7 @@ a.instagram {
     border: 2px solid #828282;
     margin: auto;
     padding: 10px;
-    background-color: black;
+    background-color: #ffc8dd;
 }
 
 .vn_item .vn_inner { 
@@ -236,13 +237,13 @@ a.instagram {
     /* margin-left: 10px;
     margin-right: 10px; */
     transition: all 500ms ease;
-    background-color: white;
+    background-color: #bde0fe;
     color: black;
 }
 
 .vn_item .vn_inner:hover {
-    background: rgba(197, 197, 197, 0.9);
-    color: #fff;
+    background: white;
+    color: black;
 }
 
 .vn_item .vn_icon_square {
@@ -462,8 +463,8 @@ a.instagram {
 ======================*/
 
 .location:hover{
-    background-color: rgb(128,128,128, .8);
-    color: white;
+    background-color: white;
+    color: black;
 }
 .location_wrapper {
     position:relative;
@@ -475,7 +476,7 @@ a.instagram {
 }
 
 .location_tag div{
-    background: #ffffff;;
+    background: #bde0fe;
     color: #ffffff;
     text-transform: uppercase;
     width: 220px;
@@ -484,7 +485,7 @@ a.instagram {
     padding: 15px 20px;
     text-align: center;
     border-radius: 50px;
-    border: 3px solid black;
+    border: 3px solid #ffc8dd;
 }
 
 /*====================
