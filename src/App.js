@@ -27,16 +27,16 @@ class App extends Component {
           <VenueNfo/>
         </Element>
 
+        <Element name="location">
+          <Location/>
+        </Element>
+
         <Element name="highlights">
           <Highlight/>
         </Element>
 
         <Element name="pricing">
           <Pricing/>
-        </Element>
-
-        <Element name="location">
-          <Location/>
         </Element>
 
         <Element name="poll">
