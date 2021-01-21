@@ -17,7 +17,7 @@ const Location = () => {
             ></iframe>
             
             <div className="location_tag"> 
-                <div>Location</div>
+                <div className="location"><a href ="https://www.google.com/maps?ll=40.721098,-73.962582&z=19&t=m&hl=en&gl=US&mapclient=embed&daddr=Smorgasburg+90+Kent+Ave+Brooklyn,+NY+11211@40.7210981,-73.9625824">Location</a></div>
             </div>
 
         </div>

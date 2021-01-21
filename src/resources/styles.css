@@ -17,7 +17,7 @@ body {
 }
 
 .bck_green {
-    background: #3bdf6c;
+    background: black;
 }
 
 .iconImage {
@@ -34,7 +34,9 @@ body {
 /*====================
         HEADER
 ======================*/
-
+.nav_bar{
+    background-color: #bde0fe;
+}
 
 header {
     padding:10px 0px;
@@ -46,10 +48,13 @@ header .header_logo {
 }
 header .header_logo_venue {
     font-size: 40px;
+    text-transform: uppercase;
+    color: black;
 }
 
 header .header_logo_title {
     text-transform: uppercase;
+    color: black;
 }
 
 /*====================
@@ -160,12 +165,15 @@ a.instagram {
 
 .countdown_wrapper {
     position: absolute;
+    display: flex;
+    flex-direction: row;
     bottom: 250px;
     color: white;
     text-align: center;
     box-sizing: border-box;
-    background:rgba(0,0,0,0.70);
+    background:rgb(128,128,128, .8);
     padding: 20px 20px;
+    border-radius: 50px;
     text-align: center;
 }
 
@@ -188,12 +196,11 @@ a.instagram {
     border-right: 1px solid #ffffff;
     margin-right: 14px;
     padding-right: 30px;
-    padding-left: 30px
+    padding-left: 30px;
 }
 .countdown_wrapper .countdown_item:last-child .countdown_time{
     border:none;
 }
-
 .countdown_wrapper .countdown_tag {
     text-transform: uppercase;
     font-size: 20px;
@@ -220,6 +227,7 @@ a.instagram {
     border: 2px solid #828282;
     margin: auto;
     padding: 10px;
+    background-color: black;
 }
 
 .vn_item .vn_inner { 
@@ -229,10 +237,13 @@ a.instagram {
     /* margin-left: 10px;
     margin-right: 10px; */
     transition: all 500ms ease;
+    background-color: white;
+    color: black;
 }
 
 .vn_item .vn_inner:hover {
-    background: #2f74cf;
+    background: rgba(197, 197, 197, 0.9);
+    color: #fff;
 }
 
 .vn_item .vn_icon_square {
@@ -294,7 +305,15 @@ a.instagram {
     font-weight: 300;
     border-top: 1px solid #807f7f;
     border-bottom: 1px solid #807f7f;
-    padding: 30px 40px;
+    padding: 20px 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.highlight_description_wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .discount_wrapper {
@@ -308,24 +327,30 @@ a.instagram {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #2f74cf;
+    color: #ffc8dd;
     font-size: 125px;
     font-weight: 400;
     display: block;
     line-height: 120px;
+    
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(2) {
-    color: #2c2c2c;
+    color: #ffc8dd;
     font-size: 50px;
     font-weight: 400;
     display: block;
+    
+    
+}
+.discount_porcentage{
+    text-align:center;
 }
 
 .discount_wrapper .discount_description {
     box-sizing: border-box;
     border: 2px solid black;
-    background: #2f74cf;
+    background: #ffc8dd;
     padding: 50px 30px;
     border-radius: 25px;
     text-align: center;
@@ -375,7 +400,7 @@ a.instagram {
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    background: #3bdf6c;
+    background: #bde0fe;
     padding: 50px 20px;
     border-radius: 25px;
     border: 2px solid black;
@@ -409,22 +434,33 @@ a.instagram {
     text-align: center;
 }
 
+.youtube_video{
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
 
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */;
+    padding: 5px;
+}
 /*====================
         LOCATION    
 ======================*/
 
+.location:hover{
+    background-color: rgb(128,128,128, .8);
+    color: white;
+}
 .location_wrapper {
     position:relative;
 }
-
 .location_tag {
     position: absolute;
     bottom: 475px;
     width: 100%;
 }
 .location_tag div{
-    background: black;
+    background: #000000;
     color: #ffffff;
     text-transform: uppercase;
     width: 220px;
@@ -433,7 +469,7 @@ a.instagram {
     padding: 15px 20px;
     text-align: center;
     border-radius: 50px;
-    border: 2px solid white;
+    border: 2px solid #bde0fe;
 }
 
 /*====================
