@@ -29,7 +29,7 @@ class Discount extends Component {
 
     render() {
         return(
-            <div className="center_wrapper">
+            <div className="center_wrapper_discount">
                 <div className="discount_wrapper">
 
                     <Fade 

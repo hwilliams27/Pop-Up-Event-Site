@@ -47,7 +47,7 @@ class Pricing extends Component {
     render(){
         return(
             <div className="bck_white">
-                <div className="center_wrapper pricing_section">
+                <div className="center_wrapper_prices pricing_section">
                     <h2>Pricing</h2>
 
                     <div className="pricing_wrapper">
