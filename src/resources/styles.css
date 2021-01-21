@@ -15,15 +15,9 @@ body {
 .bck_white {
     background: #ffffff;
 }
-.bck_red {
-    background: #ff4800;
-}
-.bck_yellow {
-    background: #f3c976;
-}
 
-.bck_purp {
-    background: #953bdf;
+.bck_green {
+    background: #3bdf6c;
 }
 
 .iconImage {
@@ -67,7 +61,6 @@ footer {
     text-align: center;
     font-size: 60px;
     color:black;
-    background: red;
 }
 
 footer .footer_logo_venue {
@@ -91,7 +84,6 @@ footer .footer_copyright {
 a.social {
     margin: 0 1rem;
     transition: transform 250ms;
-    /* display: in-block; */
     display: inline-block;
 }
 
@@ -315,7 +307,7 @@ a.instagram {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #f74848;
+    color: #2f74cf;
     font-size: 125px;
     font-weight: 400;
     display: block;
@@ -331,7 +323,7 @@ a.instagram {
 
 .discount_wrapper .discount_description {
     box-sizing: border-box;
-    background: #f74848;
+    background: #2f74cf;
     padding: 50px 30px;
     border-radius: 25px;
     text-align: center;
@@ -381,8 +373,7 @@ a.instagram {
 }
 
 .pricing_wrapper .pricing_inner_wrapper {
-    /* border:1px solid #ffa800; */
-    background: #f3c976;
+    background: #3bdf6c;
     padding: 50px 20px;
     border-radius: 25px;
 }
