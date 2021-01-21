@@ -7,15 +7,15 @@ const Description = () => {
             <div className="highlight_center_wrapper">
                 <h2>Highlights</h2>
                 <div className="highlight_description">
-                Hello there, feel free to come on down to ______ to see the Pop up shops we will be hosting!  
+                    <p>Welcome to Pop Up Flea! Feel free to come on down to see the Pop Up shops/vendors we will be hosting!</p>  
                 </div>
                 
                 <div className="highlight_description">
-                We have a large selection of choices, such as Food Clothes, and much more. We have our info here, such as the date, address, and location placed here, so you know where it is.
+                    <p>We have a large selection of choices, such as: Food, Clothes, Art, and much more! The date, address, and location of our next event is placed above. We'd be happy to see you there!</p>
                 </div>
 
                 <div className="highlight_description">
-                 And if you need a map, not to worry, we have you covered on that as well! We will also have certain events going on throughout the day, so don't miss out on that either! (psst, there may even be a few prizes to be given out...)
+                    <p>If you need a map, not to worry. We have you covered on that as well! We will also have certain events going on throughout the day, so don't miss out on that either! (psst, there may even be a few prizes to be given out...)</p>
                 </div>
             </div>
         </Fade>
