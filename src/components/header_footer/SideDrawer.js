@@ -23,7 +23,9 @@ const SideDrawer = (props)=>{
             open={props.open}
             onClose={()=> props.onClose(false)}
         >
-            <List component="nav">
+            <List component="nav"
+                className = "nav_bar"
+                >
                 <ListItem button onClick={()=> scrollToElement
                 ('featured')}>
                     Event starts in
@@ -52,6 +54,15 @@ const SideDrawer = (props)=>{
                 <ListItem button onClick={()=> scrollToElement
                 ('social')}>
                     Social
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement
+                ('poll')}>
+                    Pollz
+                </ListItem>
+
+                <ListItem>
+                    <a href = "https://github.com/doobybooby/Pop-Up-Event-Site">GitHub</a>
                 </ListItem>
 
             </List>

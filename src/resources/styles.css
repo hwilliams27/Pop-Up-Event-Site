@@ -34,7 +34,9 @@ body {
 /*====================
         HEADER
 ======================*/
-
+.nav_bar{
+    background-color: #bde0fe;
+}
 
 header {
     padding:10px 0px;
