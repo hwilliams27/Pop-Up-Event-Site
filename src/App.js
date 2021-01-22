@@ -14,6 +14,7 @@ import SocialMedia from './components/social';
 import Footer from './components/header_footer/Footer';
 import ScrollToTop from "react-scroll-to-top";
 import Youtube from "./components/youtube";
+import FAQ from "./components/faq";//added faq section
 class App extends Component {
   render(){
     return(
@@ -43,6 +44,10 @@ class App extends Component {
         <Element name="pricing">
           <Pricing/>
         </Element>
+
+        <Element name="faq">
+          <FAQ/>
+      </Element>
 
         <Element name="poll">
           <Pollz/>

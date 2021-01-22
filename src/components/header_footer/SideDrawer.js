@@ -61,6 +61,11 @@ const SideDrawer = (props)=>{
                     Pollz
                 </ListItem>
 
+                <ListItem button onClick={()=> scrollToElement
+                ('faq')}>
+                    FAQ
+                </ListItem>
+
                 <ListItem>
                     <a href = "https://github.com/hwilliams27/Pop-Up-Event-Site">GitHub</a>
                 </ListItem>
