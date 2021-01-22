@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './resources/styles.css';
 import {Element} from 'react-scroll';
+import firebase from "firebase";
+
 
 
 import Header from './components/header_footer/Header';
@@ -15,6 +17,8 @@ import Footer from './components/header_footer/Footer';
 import ScrollToTop from "react-scroll-to-top";
 import Youtube from "./components/youtube";
 import FAQ from "./components/faq";//added faq section
+import Newsletter from "./components/newsletter";//added Newsletter section
+
 class App extends Component {
   render(){
     return(
@@ -51,6 +55,10 @@ class App extends Component {
 
         <Element name="poll">
           <Pollz/>
+        </Element>
+
+        <Element name="newsletter">
+          <Newsletter/>
         </Element>
 
         <Element name="social">

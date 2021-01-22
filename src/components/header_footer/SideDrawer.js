@@ -66,6 +66,11 @@ const SideDrawer = (props)=>{
                     FAQ
                 </ListItem>
 
+                <ListItem button onClick={()=> scrollToElement
+                ('newsletter')}>
+                    Contact Us
+                </ListItem>
+
                 <ListItem>
                     <a href = "https://github.com/hwilliams27/Pop-Up-Event-Site">GitHub</a>
                 </ListItem>
