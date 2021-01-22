@@ -379,46 +379,47 @@ a.instagram {
 /*change the names amd fix the elements*/
 .faq_center_wrapper {
     margin: auto;
+    padding: 0px 30px;
 }
 
-.faq_wrapper h2 {
+.faq_center_wrapper h4 {
     text-align: center;
     margin: auto;
     text-transform: uppercase;
     color: black;
     font-size: 52px;
     background-color: white;
-    padding: 25px 20px;
+    border-bottom: solid 1px black;
 }
 
-.faq_wrapper .faq_answer {
+.faq_center_wrapper .faq_answer {
     text-align: center;
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
-    border-top: 1px solid #807f7f;
-    border-bottom: 1px solid #807f7f;
     padding: 20px 20px;
     margin: 10px;
     display: flex;
 }
 
 .faq_answer_wrapper{
-    display:flex;
-}
-
-
-
-.faq_wrapper .faq_answer {
     box-sizing: border-box;
     border: 2px solid black;
     background: #ffc8dd;
-    padding: 50px 30px;
+    padding: 20px 20px;
     border-radius: 25px;
+}
+
+.faq_question_wrapper .faq_answer {
     text-align: center;
 }
 
-.faq_wrapper .faq_description  {
+.faq_question_wrapper .faq_question {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.faq_question_wrapper .faq_description  {
     font-size: 34px;
     font-weight: 100;
     margin: 0px;
@@ -426,7 +427,7 @@ a.instagram {
     font-weight: bold;
 }
 
-.faq_wrapper .faq_description { 
+.faq_center_wrapper .faq_description { 
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
@@ -553,7 +554,8 @@ a.instagram {
         POLL    
 ======================*/
 .big_wrap {
-    border-top: 1px solid black;
+    /* border-top: 1px solid black; */
+    padding-top: 30px;
 }
 .poll_wrapper {
     margin: auto;
