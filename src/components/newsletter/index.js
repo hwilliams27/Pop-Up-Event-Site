@@ -7,9 +7,6 @@ const newsletter = () => {
         <div style={{position:'relative'}}>
 
             <Contact/>
-
-          
-            
         </div>
 
     );

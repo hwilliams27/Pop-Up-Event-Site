@@ -37,11 +37,11 @@ const Contact = () => {
     return (
         <form className="form" onSubmit={handleSubmit}>
             <h1>Contact Form</h1>
-            <span>Feel free to leave your contact info below. We will send you updates regarding upcoming events, or new ones if that's what you want.</span>
-
+            <span>Feel free to leave your contact info below! We will send you updates regarding upcoming events, or new ones in the future!</span>
+            
             <label>Name</label>
             <input 
-                placeholder="name" 
+                placeholder="Name" 
                 value={name}
                 onChange={(e) => setName(e.target.value)}
             />
@@ -61,8 +61,13 @@ const Contact = () => {
 
             <button
                 type="submit"
-                style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-             >
+                style={{ 
+                  color: "#000000",
+                  padding: '20px 30px',
+                  width: "300px",
+                  background: loader ? "#ccc" : "#bde0fe" }}
+                  className="sub"
+              >
                 Submit
             </button>            
         </form>
