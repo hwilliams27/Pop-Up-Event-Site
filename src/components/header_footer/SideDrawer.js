@@ -58,7 +58,7 @@ const SideDrawer = (props)=>{
 
                 <ListItem button onClick={()=> scrollToElement
                 ('poll')}>
-                    Pollz
+                    Poll
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement

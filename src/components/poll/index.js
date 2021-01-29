@@ -4,9 +4,9 @@ import Poll from 'react-polls';
 // Declaring poll question and answers
 const pollQuestion = 'Are You Attending?'
 const pollAnswers = [
-  { option: 'Yes', votes: 0 },
-  { option: 'No', votes: 0 },
-  { option: 'Maybe', votes: 0 }
+  { option: 'Yes', votes: 30 },
+  { option: 'No', votes: 1 },
+  { option: 'Maybe', votes: 10 }
 ]
  
 class Pollz extends Component {
